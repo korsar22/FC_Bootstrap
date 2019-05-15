@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>КиноМонстр Bootstrap - Интерстеллар</title>
+    <title>КиноМонстр Bootstrap - Рейтинг фильмов</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -36,9 +36,9 @@
                 <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
                     <ul class="nav nav-pills">
                         <li><a href="index.html">Главная</a></li>
-                        <li class="active"><a href="films.html">Фильмы</a></li>
+                        <li><a href="films.html">Фильмы</a></li>
                         <li><a href="#">Сериалы</a></li>
-                        <li><a href="rating.html">Рейтинг фильмов</a></li>
+                        <li class="active"><a href="rating.html">Рейтинг фильмов</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </div>
@@ -63,54 +63,55 @@
                     </div>
                 </form>
 
-                <h1>Интерстеллар</h1>
+                <h1>Рейтинг фильмов</h1>
                 <hr>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6ybBuTETr3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="well info-block text-center">
-                    Год: <span class="badge">2014</span>
-                    Рейтинг: <span class="badge">8.9</span>
-                    Режиссер: <span class="badge">Кристофер Нолан</span>
-                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Фильмы</th>
+                            <th class="text-center">Год</th>
+                            <th class="text-center">Рейтинг</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-lg-1 col-md-1 col-xs-1">
+                                <img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Интерстеллар">
+                            </td>
+                            <td class="vert-aling"><a href="show.html">Интерстеллар</a></td>
+                            <td class="text-center vert-aling"><span class="badge">2014</span></td>
+                            <td class="text-center vert-aling"><span class="badge">8.9</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-1 col-md-1 col-xs-1">
+                                <img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица">
+                            </td>
+                            <td class="vert-aling"><a href="#">Матрица</a></td>
+                            <td class="text-center vert-aling"><span class="badge">1999</span></td>
+                            <td class="text-center vert-aling"><span class="badge">8.5</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-1 col-md-1 col-xs-1">
+                                <img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный Макс">
+                            </td>
+                            <td class="vert-aling"><a href="#">Безумный Макс</a></td>
+                            <td class="text-center vert-aling"><span class="badge">2012</span></td>
+                            <td class="text-center vert-aling"><span class="badge">8.1</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-1 col-md-1 col-xs-1">
+                                <img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
+                            </td>
+                            <td class="vert-aling"><a href="#">Облачный атлас</a></td>
+                            <td class="text-center vert-aling"><span class="badge">2015</span></td>
+                            <td class="text-center vert-aling"><span class="badge">7.9</span></td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                <div class="margin-8"></div>
-
-                <h2>Описание фильма</h2>
-                <hr>
-                <div class="well">
-                    Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее среди звезд. В недалёком будущем из-за развития патогенных бактерий концентрация кислорода в атмосфере Земли необратимо падает, что вызывает ухудшение климата и грозит неминуемой гибелью человечества. Бывший пилот НАСА Купер ведёт фермерское хозяйство со своей семьёй в американской глубинке, страдая от неурожая и пыльных бурь. Его дочь Мёрф рассказывает о том, что её комнату посещает призрак и сбрасывает книги с полки. Купер, разобравшись, понимает, что аномальные явления не выдумка, и даже обнаруживает вместе с дочерью закономерности в действиях призрака. Проанализировав их, он вычисляет координаты некоего объекта, оказавшегося секретным подразделением НАСА.
-                </div>
-
-                <div class="margin-8"></div>
-
-                <h2>Отзывы о фильме</h2>
-                <hr>
-                <div class="panel panel-info">
-                    <div class="panel-heading"><i class="glyphicon glyphicon-user"></i> <span>Владимир</span></div>
-                    <div class="panel-body">
-                        Очень крутое кино, буду пересматривать ещё раз.
-                    </div>
-                </div>
-                <div class="panel panel-info">
-                    <div class="panel-heading"><i class="glyphicon glyphicon-user"></i> <span>Слава</span></div>
-                    <div class="panel-body">
-                        Современное и познавательное кино, есть над чем подумать в конце. Больше спасибо актерам за отличную игру.
-                    </div>
-                </div>
-
-                <form>
-                    <div class="form-group">
-                        <input type="text" placeholder="Ваше имя" class="form-control input-lg">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control"></textarea>
-                    </div>
-                    <button class="btn btn-warning btn-lg pull-right">отправить</button>
-                </form>
 
                 <div class="margin-8 clear"></div>
-
 
             </div>
             <div class="col-lg-3 col-lg-pull-9">
